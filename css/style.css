@@ -1,10 +1,39 @@
 body {
   background: cornflowerblue;
 }
-h1 {
+
+h1, h2 {
   text-align: center;
 }
 p {
   color: whitesmoke;
   text-align: center;
 }
+
+photo-link {
+  background: cornflowerblue;
+}
+
+.photo-image {
+  display: block;
+  width: 30px;
+}
+
+.contact-link {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: beige;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+
